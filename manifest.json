@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "download-notify",
+  "version": "1.0",
+
+  "description": "Creates a notification for download events",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "background": {
+      "scripts": ["download-notify.js"]
+  },
+
+  "permissions": [
+      "downloads",
+      "notifications"
+  ]
+}
